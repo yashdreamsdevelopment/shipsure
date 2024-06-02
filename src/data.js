@@ -48,7 +48,7 @@ export const ORDERS_DATA = [
   },
   {
     orderId: "5325-00040",
-    clientName: "fuel.lube / air / water.seware system",
+    clientName: "fuel.lube / air / water.seware",
     serviceData: {
       type: "Spares",
       date: "20 Jul 2019",
