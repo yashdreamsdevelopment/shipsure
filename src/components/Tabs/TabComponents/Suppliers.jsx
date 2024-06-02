@@ -4,7 +4,13 @@ import TabHeader from "./TabHeader";
 import TableContainer from "@mui/material/TableContainer";
 import Table from "@mui/material/Table";
 import TableHead from "@mui/material/TableHead";
-import { Divider, TableBody, TableCell, TableRow } from "@mui/material";
+import {
+  Divider,
+  TableBody,
+  TableCell,
+  TableRow,
+  Typography,
+} from "@mui/material";
 import Profiler from "../../CustomAvatar";
 
 const Suppliers = () => {
@@ -33,7 +39,11 @@ const Suppliers = () => {
         />
       ),
       supplierName: "Fintec Co. Ltd - Spares",
-      goods: "4,370.60",
+      goods: (
+        <Typography variant="body1" sx={{ color: "red", fontSize: "14px" }}>
+          4,370.60
+        </Typography>
+      ),
       freight: "0.00",
       total: "4,370.60",
       cur: "EUR",
